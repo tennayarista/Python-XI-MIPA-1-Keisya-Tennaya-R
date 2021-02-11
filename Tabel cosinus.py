@@ -12,3 +12,4 @@ for i in range (0,361,30):
     print (i,"\t",b,"\t",c,"\t",d)
 input("selesai")
 
+
