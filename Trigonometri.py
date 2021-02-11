@@ -1,4 +1,4 @@
-from mah import pi, radians, degrees, sin, cos, tan, asin
+from math import pi, radians, degrees, sin, cos, tan, asin
 
 ad = 90
 ar = radians(ad)
