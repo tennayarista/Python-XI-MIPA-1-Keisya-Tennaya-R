@@ -21,11 +21,10 @@ class pasien:
         else: 
             print("obesitas")
 
-def beratIdeal(self):
-    print("Nama  :", self.nama)
-    ideal = (self.tinggi*100 - 100) - (10/100 * (self.tinggi*100 - 100))
-    print("BB ideal = ", ideal)
-    print("-----------------------")
+    def beratIdeal(self):
+        ideal = (self.tinggi*100 - 100) - (10/100 * (self.tinggi*100 - 100))
+        print("BB ideal = ", ideal)
+        print("-----------------------")
 
 #intansiasi objek / pembuatan objek 
 pasien1 = pasien("wawan", 110, 1.7)
