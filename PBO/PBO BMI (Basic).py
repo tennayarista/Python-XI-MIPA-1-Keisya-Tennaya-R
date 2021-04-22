@@ -16,12 +16,13 @@ class pasien:
             print("kekurangan berat badan.")
         elif bmi > 18.5 and bmi <= 24.9:
             print("berat badan ideal.")
-        elif bmi > 24.9 and <= 29.9:
+        elif bmi > 24.9 and bmi <= 29.9:
             print("berat badan berlebih")
         else: 
             print("obesitas")
 
 def beratIdeal(self):
+    print("Nama  :", self.nama)
     ideal = (self.tinggi*100 - 100) - (10/100 * (self.tinggi*100 - 100))
     print("BB ideal = ", ideal)
     print("-----------------------")
