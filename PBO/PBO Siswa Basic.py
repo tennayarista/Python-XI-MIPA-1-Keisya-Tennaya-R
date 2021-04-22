@@ -8,7 +8,7 @@ class siswa:
         self.kelas = kelas 
         self.alamat = alamat 
         self.nilai = nilai 
-        siswa.jumlah_siswa =+ 1 
+        siswa.jumlah_siswa += 1 
     #methode 
     def viewSiswa(self): 
         print("----------------------")
